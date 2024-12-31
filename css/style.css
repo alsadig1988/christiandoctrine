@@ -1,0 +1,104 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 193, 133);
+    margin: 0%;
+    
+}
+main{
+    border: 3px;
+    border-color: #eaece7;
+    margin-left: 20px;
+   margin-right: 20px;
+   background-color: rgb(188, 242, 242);
+
+}
+/* Header Styles */
+header {
+    background-color: #0e0d0d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+/* navbar style */
+
+.navbar ul {
+    background-color: #555;
+    margin: 0;
+    padding: 1em 0;
+    list-style: none;
+    text-align: center;
+}
+.navbar li{
+   
+    list-style: none;
+    display: inline;
+
+}
+
+.navbar a {
+    color: rgb(245, 247, 241);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar a:hover { background-color: hsl(202, 86%, 51%);}
+
+aside{
+    border: 3px;
+    border-color: #eaece7;
+    background-color: #eaece7;
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+section{
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+article{
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+footer{
+    background-color: #0e0d0d;
+    display: block;
+    clear: both;
+    color: #f3f1f1;
+    text-align: center;
+    padding: 1em 0;
+}
+@media screen and (max-width:600px){
+    aside, section,article{
+        width:100%;
+    }
+}
+div.gallery{
+    display: inline;
+    border: 1px solid brown;
+    margin: 5px;
+}
+.gallery.disciption{
+    padding: 10px;
+    text-align: center;
+}
+.gallery :hover{
+    border: 1px solid #c06f6f;
+}
+.h3{
+    padding: 20px;
+}
+#redheart{
+    float: left;
+    margin-right: 10px;
+}
